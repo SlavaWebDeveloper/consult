@@ -1,0 +1,32 @@
+@mixin hover-or-active {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+
+  @media (hover: none) {
+    &:active {
+      @content;
+    }
+  }
+}
+
+@mixin background-image-retina($image-url, $retina-image-url: null) {
+  background-image: url($image-url);
+
+  // Проверка для ретина-дисплеев
+  @if $retina-image-url {
+    @media (-webkit-min-device-pixel-ratio: 2),
+      (min--moz-device-pixel-ratio: 2),
+      (-o-min-device-pixel-ratio: 2/1),
+      (min-resolution: 192dpi) {
+      background-image: url($retina-image-url);
+    }
+  }
+}
+
+
+.text-balance {
+  text-wrap: balance;
+}

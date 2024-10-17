@@ -1,0 +1,144 @@
+// ---------------------------------- COLORS ----------------------------------- //
+
+$primary: #f5b80f;
+$secondary: #222121;
+$light: #ffffff;
+$light-mute: #eaeaea;
+$dark: #222121;
+$gray: #a29494;
+$gray-lite: #d9d9d9;
+$gray-dark: #383838;
+$orange: #f5b80f;
+$orange-lite: #ffd04f;
+$orange-mute: #fce299;
+
+// ----------------------------------- CUSTOM COLORS ----------------------------------- //
+
+$custom-colors: (
+    "cc-card-text": #e1e1e1
+);
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light": $light,
+    "light-mute": $light-mute,
+    "dark": $dark,
+    "gray": $gray,
+    "gray-lite": $gray-lite,
+    "gray-dark": $gray-dark,
+    "orange": $orange,
+    "orange-lite": $orange-lite,
+    "orange-mute": $orange-mute
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// ----------------------------------- FONT SIZE ----------------------------------- //
+
+$h1-font-size: 3rem;
+
+// ----------------------------------- LINKS ----------------------------------- //
+
+$link-color: #c8c8c8;
+// $link-hover-color: $dark-mute;
+
+// ----------------------------------- NAV LINK ----------------------------------- //
+
+$nav-link-padding-y: 0;
+$nav-link-font-weight: 700;
+$nav-link-font-size: 2.1875rem;
+// ----------------------------------- OFFCANVAS ----------------------------------- //
+
+// $offcanvas-color: $light-mute;
+// $offcanvas-bg-color: $dark-mute;
+$offcanvas-padding-x: 40px;
+$offcanvas-padding-y: 32px;
+
+// ----------------------------------- NAVBAR ----------------------------------- //
+$navbar-padding-y: 1.5rem;
+$navbar-nav-link-padding-x: 0;
+$navbar-light-color: $light;
+// $navbar-light-active-color: $secondary;
+$navbar-dark-color: $dark;
+$navbar-dark-active-color: $secondary;
+$navbar-light-hover-color: $light;
+$navbar-dark-hover-color: $dark;
+// $navbar-light-toggler-icon-bg: url
+$border-width: 0;
+// ----------------------------------- NAV PILLS ----------------------------------- //
+
+// $nav-pills-link-active-color: $dark-mute;
+$nav-pills-link-active-bg: transparent;
+$nav-pills-border-radius: 0;
+
+// ----------------------------------- CARD ----------------------------------- //
+
+$card-border-width: 0;
+$card-bg: transparent;
+$card-spacer-x: 30px;
+$card-spacer-y: 30px;
+$card-color: var(--bs-cc-card-text);
+
+// ----------------------------------- MAIN ----------------------------------- //
+
+$font-family-base: "Bona Nova", sans-serif;
+$body-line-height: 1.3;
+$body-bg: #ffffff;
+$transition-duration: 0.5s;
+
+// ----------------------------------- FONTS ----------------------------------- //
+
+$ff-Inter: "Inter", sans-serif;
+
+// ----------------------------------- BOX SHADOW ----------------------------------- //
+
+$box-shadow: 0 0.25rem 0.25rem 0 rgba($dark, 0.2);
+$border-color: $dark;
+
+// ----------------------------------- FORM ----------------------------------- //
+
+$form-check-input-border: 2px solid rgba($secondary, 1);
+$input-border-color: $secondary;
+$input-border-radius: 30px;
+$form-check-input-checked-bg-color: $secondary;
+
+// ----------------------------------- BREADCRUMB ----------------------------------- //
+
+$breadcrumb-bg: transparent;
+// $breadcrumb-divider-color: $dark-mute;
+// $breadcrumb-active-color: $dark-mute;
+$breadcrumb-divider: "/";
+$breadcrumb-margin-bottom: 0;
+$breadcrumb-color: red;
+
+// ----------------------------------- BUTTONS ----------------------------------- //
+
+$btn-color: $light;
+$btn-bg: $secondary;
+$btn-border-radius: .9375rem;
+$btn-border-width: 0;
+$btn-padding-y: .875rem;
+$btn-padding-x: 2.125rem;
+$btn-font-size: 1.0625rem;
+$btn-font-weight: 700;
+$btn-secondary-color: #fff;
+$breadcrumb-padding-x: 0;
+$breadcrumb-padding-y: 12px;
+
+// ----------------------------------- MODAL ----------------------------------- //
+
+$btn-close-bg: url("./img/icons/close.svg");
+$btn-close-opacity: 1;
+$btn-close-focus-shadow: 0;
+
+// ----------------------------------- MODAL ----------------------------------- //
+$dropdown-item-padding-y: 0.375rem .75rem;
+$dropdown-item-padding-x: 0.375rem 1.5625rem ;
+$dropdown-padding-y: 0;
+
+// ----------------------------------- INPUT ----------------------------------- //
+$input-placeholder-color: transparent;
+$input-focus-bg: transparent;
+$input-focus-border-color: $dark;
+$input-focus-box-shadow: none;
