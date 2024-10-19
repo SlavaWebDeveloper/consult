@@ -26,7 +26,12 @@
   }
 }
 
-
 .text-balance {
   text-wrap: balance;
+}
+
+@media (min-width: 1600px) {
+  .custom-container {
+    max-width: 1424px !important;
+  }
 }
