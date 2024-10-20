@@ -61,8 +61,8 @@ $theme-colors: map-remove($theme-colors, "teal", "pink", "indigo", "purple", "or
 @import "../scss/advantages";
 
 // Scss Page
-@import "../scss/main";
-@import "../scss/service";
+@import "../scss/page/main";
+@import "../scss/page/service";
 
 button {
   text-transform: uppercase;
