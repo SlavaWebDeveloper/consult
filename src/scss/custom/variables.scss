@@ -11,7 +11,7 @@ $gray-dark: #383838;
 $orange: #f5b80f;
 $orange-lite: #ffd04f;
 $orange-mute: #fce299;
-
+$red: #b81111;
 // ----------------------------------- CUSTOM COLORS ----------------------------------- //
 
 $custom-colors: (
@@ -29,10 +29,9 @@ $theme-colors: (
     "gray-dark": $gray-dark,
     "orange": $orange,
     "orange-lite": $orange-lite,
-    "orange-mute": $orange-mute
+    "orange-mute": $orange-mute,
+    "red": $red
 );
-
-
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 

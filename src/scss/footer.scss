@@ -1,0 +1,156 @@
+@import "../scss/custom/fonts";
+@import "../scss/custom/variables";
+@import "../scss/custom/helpers";
+
+//****************************** FOOTER ******************************//
+
+.footer {
+  padding-block: 6.125rem 10.625rem;
+
+  .footer-container {
+    &.row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer-links {
+      max-width: 50%;
+      padding: 0;
+
+      .navbar-nav {
+        gap: 1.875rem;
+
+        .nav-link {
+          font-weight: 400;
+          font-size: 1.875rem;
+          letter-spacing: -0.04em;
+          line-height: normal;
+        }
+      }
+    }
+
+    .footer-company {
+      max-width: 50%;
+      padding: 0;
+      margin-inline: auto;
+      width: max-content;
+
+      .navbar-nav {
+        gap: 1.5rem;
+
+        .nav-link {
+          font-weight: 700;
+          font-size: 1.875rem;
+          letter-spacing: -0.04em;
+          line-height: normal;
+        }
+      }
+    }
+
+    .social {
+      margin-top: 3.9375rem;
+
+      .social-link:not(:last-child) {
+        margin-right: 1.5rem;
+      }
+    }
+  }
+}
+
+//****************************** END FOOTER ******************************//
+
+@media (max-width: 1300px) {
+  .footer {
+    padding-block: 6.125rem 9.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding-block: 4.6875rem 5.75rem;
+
+    .footer-container {
+      flex-direction: column;
+      gap: 3.125rem;
+
+      .footer-links {
+        max-width: 100%;
+
+        .navbar-nav {
+          gap: 0.9375rem;
+
+          .nav-link {
+            font-weight: 700;
+            font-size: 1.875rem;
+          }
+        }
+      }
+
+      .footer-company {
+        max-width: 100%;
+        width: 100%;
+
+        .navbar-nav {
+          gap: 1.5625rem;
+
+          .nav-link {
+            font-weight: 700;
+            font-size: 2.1875rem;
+          }
+        }
+      }
+
+      .social {
+        margin-top: 1.5625rem;
+
+        .social-link:not(:last-child) {
+          margin-right: 1.6875rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    padding-block: 3.125rem 4.1875rem;
+
+    .footer-container {
+      gap: 2.5rem;
+
+      .footer-links {
+        .nav-link {
+          font-size: 1.25rem;
+        }
+      }
+
+      .footer-links {
+        .navbar-nav {
+          .nav-link {
+            font-weight: 700;
+            font-size: 1.25rem;
+          }
+        }
+      }
+
+      .footer-company {
+        .navbar-nav {
+          gap: 1.25rem;
+          .nav-link {
+            font-size: 2.1875rem;
+          }
+        }
+      }
+
+      .social {
+        margin-top: 2.1875rem;
+      }
+    }
+  }
+}
+
+//****************************** END MEDIA FOOTER ******************************//
