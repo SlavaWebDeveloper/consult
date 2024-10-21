@@ -70,6 +70,8 @@ button {
   min-width: 220px;
 }
 
+html
+
 .btn-transparent {
   background-color: transparent;
 
@@ -154,111 +156,3 @@ h2 {
 .ellipse-dark {
   background-color: $dark;
 }
-//****************************** FORM ******************************//
-
-.form-section {
-  padding-block: 5.0625rem 7.25rem;
-
-  .form-title {
-    font-weight: 400;
-    font-size: 60px;
-    text-transform: uppercase;
-    color: $dark;
-    letter-spacing: -0.04em;
-
-    max-width: 41.9375rem;
-    margin-bottom: 4.625rem;
-  }
-
-  .form div:not(:last-of-type) {
-    margin-bottom: 3.4375rem;
-  }
-
-  .form-control {
-    background-color: transparent;
-    border-bottom: 1px solid $dark;
-    border-radius: 0;
-  }
-
-  .form-label-below {
-    font-weight: 700;
-    font-size: 1.25rem;
-    letter-spacing: -0.04em;
-    line-height: normal;
-    margin-top: 0.375rem;
-  }
-
-  .form-title {
-    font-weight: 400;
-    font-size: 60px;
-    text-transform: uppercase;
-    color: $dark;
-
-    max-width: 41.9375rem;
-    margin-bottom: 4.625rem;
-  }
-
-  .form-button {
-    margin-top: 4.3125rem;
-    padding: 0.9375rem 3.125rem;
-  }
-}
-
-@media (max-width: 1300px) {
-  .form-section {
-    padding-block: 5.0625rem 7.25rem;
-
-    .form div:not(:last-of-type) {
-      margin-bottom: 3.4375rem;
-    }
-
-    .form-button {
-      margin-top: 4.3125rem;
-      padding: 0.9375rem 3.125rem;
-    }
-  }
-}
-
-@media (max-width: 640px) {
-  .form-section {
-    padding-block: 5rem 4.6875rem;
-
-    .form div:not(:last-of-type) {
-      margin-bottom: 3.4375rem;
-    }
-
-    .form-label-below {
-      font-weight: 700;
-      font-size: 1.25rem;
-      letter-spacing: -0.04em;
-      line-height: normal;
-      margin-top: 0.375rem;
-    }
-
-    .form-button {
-      margin-top: 4.3125rem;
-      padding: 0.9375rem 3.125rem;
-    }
-  }
-}
-
-@media (max-width: 400px) {
-  .form-section {
-    padding-block: 30px 50px;
-
-    .form-title {
-      font-size: 24px;
-    }
-
-    .form div:not(:last-of-type) {
-      margin-bottom: 0.875rem;
-    }
-
-    .form-button {
-      margin-top: 35px;
-      width: 100%;
-    }
-  }
-}
-
-//****************************** END FORM ******************************//

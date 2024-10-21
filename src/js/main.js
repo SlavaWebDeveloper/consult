@@ -23,9 +23,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (window.scrollY > 50) {
       headerNavbar.style.opacity = '0'; 
       headerNavbar.style.pointerEvents = 'none';
+      headerNavbar.style.display = 'none';
     } else {
       headerNavbar.style.opacity = '1'; 
       headerNavbar.style.pointerEvents = 'auto'; 
+      headerNavbar.style.display = 'block';
     }
   }
 
